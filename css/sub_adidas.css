@@ -1,0 +1,132 @@
+/*reset*/
+body, ul, ol, li, dl, dt, dd, p, h1, h2, h3, h4, h5, h6, input, textarea { margin: 0; padding: 0 }
+ul, ol, dl { list-style: none }
+img { border: 0; vertical-align:top; }
+
+/* base */
+body { overflow-x: hidden; font:12px "Noto Sans KR","Batang"; color: #2b2b2b; background:#f1f1ea; }
+a { text-decoration:none; color:#2b2b2b; outline:none; }
+.inner {width: 1280px; margin: 0 auto;}
+
+
+
+/*header*/
+#header {position: relative; height: 94px;}
+#header h1 { position:absolute; left:calc(50% - 62px); bottom:0px; }
+
+
+/*visual*/
+
+#visual {
+    margin-top: 35px;
+    margin-bottom: 130px;
+}
+
+/*contents*/
+#contents .plan_t {
+    font-size: 20px;
+    text-align: center;
+    line-height: 35px;
+    margin-bottom: 150px;
+}
+
+.source {display: flex; justify-content: space-between; margin-bottom: 100px;}
+
+.source li { width: 300px; }
+
+.source li div {
+    font-size: 20px;
+    line-height: 45px;
+    border-bottom: 2px solid #ccc6ac;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.source li div span { font-size: 14px; font-weight: 400;}
+
+.source p {height: 36px; font-size: 22px;}
+.font p:nth-child(2) {font-family: "Noto Sans KR"; margin-bottom: 10px;}
+.font p:nth-child(3) {font-family: "Roboto"; font-weight: bold;}
+
+.color p {border: 1px solid black;}
+.color p:nth-child(2) {width: 150px; text-align: center; background: #fff; color: black; margin-bottom: 10px;}
+.color p:nth-child(3) {width: 150px; text-align: center; background: gray; color: #fff;}
+
+.tools p {margin-bottom: 10px;}
+
+
+.con_ex {
+    font-size: 20px;
+    text-align: center;
+    line-height: 35px;
+}
+
+.con_ex a {
+    margin-top: 100px;
+    display: inline-block;
+    width: 190px; line-height: 45px;
+    border: 2px solid #ccc6ac;
+    border-radius: 15px;
+    transition: .2s;
+}
+
+.con_ex a:hover {
+    background: #ccc6ac;
+    color: #fff;
+}
+
+.con_img {margin-top: 160px;}
+.con_img img {width: 1280px;}
+.con_img_wrap {display: flex; justify-content: space-between;}
+
+
+.con_img h2 {
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: 100;
+    margin-bottom: 36px;
+    border-left: 3px solid #ccc6ac;
+    padding-left: 20px;
+}
+
+/*.con_img_wrap img { width: 600px;}*/
+
+/*.s_sub {margin-top: 100px;}*/
+
+
+/*footer*/
+#footer {
+    margin-top: 150px;
+    margin-bottom: 40px;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+.close { 
+    position:fixed; right:30px; top:30px; 
+    width: 30px; height: 30px;
+}
+
+.close .line {
+    width: 30px; height: 3px;
+    background: #000;
+    position: absolute; top: 14px;
+}
+
+.line:nth-child(1) {transform: rotate(45deg)}
+.line:nth-child(2) {transform: rotate(135deg)}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
